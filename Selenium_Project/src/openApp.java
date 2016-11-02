@@ -7,6 +7,8 @@ public class openApp {
 		
 		ChromeDriver chdriver = new ChromeDriver();
 		chdriver.get("https://www.facebook.com/");
+		
+		chdriver.getTitle();
 		System.out.println("Face book is open");
 	}
 
